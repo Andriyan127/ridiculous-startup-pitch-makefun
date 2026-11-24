@@ -12,7 +12,7 @@ const path = require("path");
 const ENTRY =
   "An app that auctions naming rights to potholes, paid by local shops whose logo gets stencilled around the hole until the shamed city finally fixes it \u2014 advertising with a built-in deadline.";
 
-const outDir = path.join(__dirname, "output");
+const outDir = "/output";
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, "entry.txt"), ENTRY + "\n", "utf8");
 
