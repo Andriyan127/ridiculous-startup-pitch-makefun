@@ -4,6 +4,7 @@
 //
 // Writes the winning one-sentence startup pitch (189 chars, max 200)
 // to /output/entry.txt.
+// Revision note (2026-11-24): pitch final — 189 chars, verified.
 
 const fs = require("fs");
 const path = require("path");
